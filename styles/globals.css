@@ -248,3 +248,8 @@ body {
 h1{
     text-align:center ;
 }
+button{
+    background-color: rgb(255, 166, 0);
+    padding: 8px;
+    border-radius: 10px;
+}
