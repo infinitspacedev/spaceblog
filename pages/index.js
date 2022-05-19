@@ -8,7 +8,7 @@ export default function Home(){
 		<input type="radio" name="radio" id="radio-nav-2" />
 		<span>Sobre</span>
 		<input type="radio" name="radio" id="radio-nav-3" />
-		<span>Filmes</span>
+		<span>News</span>
 		<input type="radio" name="radio" id="radio-nav-4" />
 		<span>Series</span>
 		<input type="radio" name="radio" id="radio-nav-5" />
@@ -41,11 +41,11 @@ export default function Home(){
 
 			<section class="section" id="section-3">
 				<div class="logo">
-					<span>filmes</span>
+					<span>news</span>
 				</div>
-				<h2>Filmes</h2>
+				<h2>Noticias</h2>
 				<div id='link'>
-					
+				<a href='noticias'>Noticias ao vivo 24hs</a>
 					
 				</div>
 				
