@@ -46,6 +46,7 @@ export default function Home(){
 				<h2>Noticias</h2>
 				<div id='link'>
 				<a href='noticias'>Noticias ao vivo 24hs</a>
+				<a href="/curiosidades">curiosidades</a>
 					
 				</div>
 				
