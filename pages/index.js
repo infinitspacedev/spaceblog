@@ -6,11 +6,11 @@ export default function Home(){
 		<input type="radio" name="radio" checked="checked" id="radio-nav-1" />
 		<span>Home</span>
 		<input type="radio" name="radio" id="radio-nav-2" />
-		<span>Sobre</span>
+		<span>Turismo</span>
 		<input type="radio" name="radio" id="radio-nav-3" />
 		<span>News</span>
 		<input type="radio" name="radio" id="radio-nav-4" />
-		<span>Series</span>
+		<span>Sports</span>
 		<input type="radio" name="radio" id="radio-nav-5" />
 		<span>Jogos</span>
 
@@ -20,22 +20,33 @@ export default function Home(){
 				<div class="logo">
 					<span>Space🌎</span>
 				</div>
-				<h2>SpaceDev🌎</h2>
-				<p>
-					é a mais recente evolução do padrão que define o desenvolvimento web.  
-					É uma nova versão  com novos elementos, atributos, e comportamentos. em um conjunto maior de 
-					tecnologias que permite o desenvolvimento de aplicações e web sites mais diversos e poderosos.
-				</p>
+				
+				<h2>Em@ranhando</h2>
+					
+				
+					<p>
+					<iframe width="350" height="200" src="https://www.youtube.com/embed/kgDsQ-40E-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></br><br></br><a>Uma das mais belas riquesas naturais do nosso estado</a><br></br><br></br><a href='xxxxxx'>xxxxxx</a><br></br>
+						<a href='xxxxxx'>xxxxxx</a>
+						<br></br>
+						<a href='xxxxxx'>xxxxxx</a>
+						
+					</p>
 			</section>
 
 			<section class="section" id="section-2">
 				<div class="logo">
-					<span>Sobre</span>
+					<span>Turismo</span>
 				</div>
-				<h2>Quem somos</h2>
+				
+					<h2>Delta das @mericas</h2>
+					
+				
 				<p>
-					uma encubadora de desenvolvimento de sistemas,marketing digital e entreterimento .
-					 Baixe videos,filmes, series e jogos para se divertir
+				<iframe width="350" height="200" src="https://www.youtube.com/embed/a1LqhpXdu-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br></br><a>Uma das mais belas riquesas naturais do nosso estado</a><hr></hr><a href='xxxxxx'>xxxxxx</a><br></br>
+					<a href='xxxxxx'>xxxxxx</a>
+					<br></br>
+					<a href='xxxxxx'>xxxxxx</a>
+					
 				</p>
 			</section>
 
@@ -44,19 +55,25 @@ export default function Home(){
 					<span>news</span>
 				</div>
 				<h2>Noticias</h2>
-				<div id='link'>
-				<a href='noticias'>Noticias ao vivo 24hs</a>
+					<p>
+						<img src='/todosjornais.jpg'width={350}height={250}></img>
+						<br></br><a href='noticias'>Noticias ao vivo 24hs</a><br></br>
 				<a href="/curiosidades">curiosidades</a>
+					</p>
+
+				
+				
+				
 					
-				</div>
+				
 				
 			</section>
 
 			<section class="section" id="section-4">
 				<div class="logo">
-					<span>Series</span>
+					<span>Sports</span>
 				</div>
-				<h2>Series</h2>
+				<h2>Sports</h2>
 				<div id='link'>
 				<a href='/simpson'>SIMPSONS... lista de episodios</a><br></br><br></br>
 				<a href='/futurama'>FUTURAMA... lista de episodios</a><br></br><br></br>
@@ -70,10 +87,10 @@ export default function Home(){
 					<span>Jogos</span>
 				</div>
 				<h2>Jogos</h2>
-				<div id='link'><a href='/corona'>Corona game</a><br></br><br></br>
-				<a href="/avioes">avioes</a>
+				<div id='link'><a href='/corona'>Corona game(facil)</a><br></br><br></br>
+				<a href="/avioes">avioes(medio)</a>
 				<br></br><br></br>
-				<a href="/chadrex">chadrex</a>
+				<a href="/chadrex">xadrex(dificel)</a>
 				</div>
 			</section>
 		</div>

@@ -83,7 +83,7 @@ body {
     background: #fff;
     font-size: 16px;
     font-weight: bold;
-    color: aqua;
+    color: rgb(103, 82, 221);
     text-align: center;
     z-index: 10;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .container>input:hover+span {
-    background: rgba(45, 148, 109, .8);
+    background: rgba(6, 201, 250, 0.8);
     color: #fff;
 }
 
@@ -160,6 +160,8 @@ body {
     background: #fff;
     transform: translateY(-50%) rotate( 45deg);
     -webkit-transform: translateY(50%) rotete(45deg);
+    box-shadow: 03px 03px 12px black;
+
 }
 
 .logo span {
@@ -168,26 +170,29 @@ body {
     top: 150px;
     left: 72px;
     color: rgb(17, 225, 240);
+    text-shadow: 5px 5px 5px black;
 }
 
 .section h2 {
     position: absolute;
     width: 100%;
-    font-size: 54px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
     top: 50%;
-    margin-top: -70px;
+    margin-top: -150px;
+    text-shadow: 2px 5px 5px black;
+    font-family: cur;
 }
 
 .section p ,#link{
     position: absolute;
-    width: 50%;
+    width: 100%;
     font-size: 16px;
     text-align: center;
     top: 50%;
-    margin-top: 10px;
-    left: 25%;
+    margin-top: -80px;
+    left: 0%;
 }
 /*ANIMACOES*/
 
@@ -244,12 +249,22 @@ body {
 .video{
     margin:0 auto;
     text-align: center;
+   
 }
 h1{
     text-align:center ;
+    color: white;
+    text-shadow: 0px 0px 5px rgb(8, 8, 8);
 }
 button{
     background-color: rgb(255, 166, 0);
     padding: 8px;
     border-radius: 10px;
+}
+p{
+    color: #fff;
+}
+h2{
+    font-size: 5px;
+    color:white;
 }
